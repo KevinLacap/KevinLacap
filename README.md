@@ -1,101 +1,21 @@
-Trading Log
-In this activity, you will use lists to create a trading log that tracks profits and losses for each market day of the month. You will iterate over the list to calculate the highest and lowest profit and loss days. The goal of this activity is to use for loops and lists in order to track metrics related to trading performance.
+# Robinhood
+	Robinhood is a financial service company that offers a platform for equities, ETFs, options and cryptocurrency through their mobile app and website. Robinhood was incorporated in April 2013 by two individuals Vladimir Tenev and Baiju Bhat. Both founders had previously built high-frequency trading platforms; and created the idea of Robinhood from experiencing the issues of the financial industry during the 2011 protest of Occupy Wall Street. Robinhood is based in the U.S. and the company’s headquarter is in Menlo Park, California. Robinhood is a FINRA approved broker dealer, registered with the U.S Securities and Exchange Commission, and also a Securities and Investor Protection Corporation (SIPIC). (Wikipedia)
 
-Background
-Karen, an equity trader, has been tracking her profits and losses over the course of the last 20 business days. She wants to quickly analyze her ongoing performance as she continues to log her profits and losses every day. Understanding her profits and losses each day will allow Karen to evaluate her performance for all trades monthly, weekly, and over time. Help Karen create a program to analyze her results.
+	Robinhood’s company mission and statement is to “Provide everyone with access to the financial markets, not just the wealthy.” Robinhood is predominantly used by millennials, whom make up the 80% of their market and target base. 50% of the users who have made a trade use the app daily and 90% use the app weekly. The innovation of this mobile app and platform has helped millennials gain access to their own Investment Management by keeping track of all trades daily and frequently. By February 2018, Robinhood had 3 million user accounts, in line with on of their direct competitor and online broker E-Trade. (Wikipedia) 
 
-Instructions
-Using the starter file, complete the following:
-
-
-Create a for loop over the trading_pnl list object, and cumulatively sum up the total profits/losses and the count of actual trading days.
-
-
-Use an if-else statement to calculate the maximum and minimum profit/loss values. In other words, find the numerical value of the best and worst trading days.
-
-
-Create additional lists profitable_days and unprofitable_days and use if-else statements to group daily trading values into each corresponding list.
-
-
-Determine the following:
-
-
-Number of total trading days
-
-
-Total profits and losses
-
-
-Daily average profit and loss
-
-
-Worst loss
-
-
-Best gain
-
-
-Number of profitable days
-
-
-Number of unprofitable days
-
-
-Percentage of profitable days
-
-
-Percentage of unprofitable days
-
-
-Print the values of only profitable days.
-
-
-Print the values of only unprofitable days.
-
-
-
-
-
-Hints
-Use the below formulas:
-
-
-Number of total trading days = length of trading_pnl
-
-
-Profit = trading_pnl value is greater than 0
-
-
-Loss = trading_pnl value is less than 0
-
-
-Total profits/losses = sum of trading_pnl
-
-
-Daily average profit/loss = total profits/losses divided by number of total trading days
-
-
-Worst loss = smallest number in unprofitable_days
-
-
-Best gain = largest number in profitable_days
-
-
-Percentage of profitable days = number of profitable days divided by number of total trading days, multiplied by 100
-
-
-Your results should look similar to the following:
----------Summary Statistics----------
-Number of Total Days: 20
-Number of Profitable Days: 13
-Number of Unprofitable Days: 7
-Percentage of Profitable Days: 65.0%
-Percentage of Unprofitable Days: 35.0%
--------------------------------------
-Profitable Days: [352, 252, 354, 56, 123, 254, 325, 47, 321, 123, 133, 613, 232]
-Unprofitable Days: [-224, -544, -650, -43, -123, -151, -311]
--------------------------------------
-Total Profits/Losses: 1139
-Daily Average: 56.95
-Worst Loss: -650
-Best Gain: 613
+	Robinhood has gone through series of funding and capital raising. In April 2017, Robinhood raised $110 million at a 1.3 billion valuation led by Yuri Milner of DST Global, Greenoaks Capital, and Thrive Capital. Another series of funding came in May 10, 2018, where Robinhood received a financing of $363 million of Series D, led by DST Global. Robinhood has also closed on venture capital funding and raised a total of $539 million, with the last valuation at $5.6 billion. As of May 2019, reports from Bloomberg and other outlets reported Robinhood is seeking an additional $200 million in funding, which could value the company in the $7 to $10 billion dollar range. It was also reported in November 2019, Robinhood would expand outside of the U.S into the United Kingdom. (Wikipedia)
+    
+	Robinhood’s main goal and objective is to provide commission free trading through their mobile app. As the majority of the users are Millennials, the commission free and mobile app is an enticing strategy to attract new and young investors that want to dive into investment trading. Along with commission free trading, Robinhood also offer a Gold subscription user service, that starts at $6 per month, that gives investors access to margin trading. Robinhood has also announced it will launch a checking and saving market with a new cash management program later this year. (forbes.com) Robinhood does not account minimum, and only requires a $2,000 minimum portfolio balance to open a margin account, again attractive to young, millennial investors. (nerdwallet.com)	
+	The biggest trend in investment of the last 5-10 years is the emergence of Cryptocurrency. With the boom of Cryptocurrency, Millennials seem to be the target audience whom keep up with trends and Robinhood’s implementation of offering cryptocurrency has helped Robinhood to grow, expand and market themselves outside of their competitors. Some of the competitors include big banks such as J.P Morgan and E-commerce trading giant E-Trade and TD Ameritrade.  Offering Cryptocurrency with commission free trading has attributed to one of Robinhood’s major successes. (Mckinsey.com) It was on January 25, 2018 that the announcement of this business implementation and model would prove to show the excitement of users as the waitlist to open an account had grown to more than 1.25 Million users on this day. Offering the phenomena of Bitcoin and Ethereum would prove to help grow their trading platform across the U.S. (Wikipedia)
+	With success and growth also comes with their share of losses. Robinhood is currently facing three lawsuits due to the March 2020 outage. On March 2nd, 2020, Robinhood faced an all-day system wide outage. This was the largest daily point gain in Dow Jones’ history, this outage prevented users from performing most action on Robinhood’s platform, including opening and closing positions. User’s cited the outage was due to a coding error regarding the leap-year handling. Robinhood in turn, denied these claims. Robinhood has stated, they will offer compensation on a case by case basis. In a matter of 5 business days, Robinhood faced another system wide outage on March 9th, 2020. (Wikipedia)
+	While providing commission free based trading, Robinhood does not have store front locations. Without store front locations and live registered representatives, Robinhood has turned to Robo Advisors to assist their users. While Robinhood is a Do It Yourself platform, the company does offer Robo Advisor to help assist on user issues, questions, and concerns. Robo-advisors substitutes the human aspect to keep in line with low commissions and fees, in line of with Robinhood’s model and mission. The need to not pay an individual rather than allowing artificial intelligence to step in an assist. (thestreet.com) While the 80% of the demographic are millennials, the other 20% age group do rely on Robo-advisors. “Robo-advisors are a potential solution to the complexities of financial decision-making,” particularly in retirement planning, said Jill E. Fisch. (knowledge@Wharton) As with Robo-advisor, this premise and business structure has limited customer support. Robinhood’s customer support relies solely on e-mail communication and does have a published phone number. (nerdwallet.com) 
+	One recommendation that I believe would be beneficial for the company is to explore and dive into Payment and Remittance. If Robinhood can offer gifting stock or have peer to peer trading with family, friends and peers this would bring a sense of comfortability to the platform. A stock to stock exchange similar to a payment to payment platform such as Venmo or CashApp, I believe would help bring in a sense of comfort when trading or gifting, as the app does not have any store front operations to keep in line with commission free based trading. With the launch of Robinhood in the U.K. and to gain more global exposure into the world markets; remittance would be a breakthrough for users in the global expanding economy. If Robinhood can obtain market share or ownership of companies such as Venmo, PayPal, or CashApp these acquisitions would rival J.P Morgan’s platform of JPMCoin and Zelle. (themedium.com) This recommendation should be strongly considered as the Big Firms such as J.P. Morgan and Ameritrade have cut down and slashed their fee structures. [nerdwallet.com](https://www.nerdwallet.com)
+    
+References
+https://en.wikipedia.org/wiki/Robinhood_(company)
+https://www.thestreet.com/technology/fintech-companies-14891479
+https://medium.com/vertexventures/how-fintech-is-disrupting-the-traditional-remittance-market-1665662c473c
+https://www.mckinsey.com/industries/financial-services/our
+https://www.forbes.com/sites/jeffkauflin/2019/02/04/the-10-biggest-fintech-companies-in-america-2019/#3d77332132b9
+https://www.nerdwallet.com/reviews/investing/brokers/robinhood?scrollTo=full-review-scroll-target
+https://knowledge.wharton.upenn.edu/article/rise-robo-advisor-fintech-disrupting-retirement/
